@@ -1,0 +1,23 @@
+Section 6.3 (benchmark instances)
+  solved at the root node: ours 107, Yamin et al. 60
+  maximum number of nodes: ours 3, Yamin et al. 39
+  optimality proved by the ladder certificate: 51
+Section 6.4 (new instances)
+  solved only by ours: 62; only by Yamin et al.: 1 ['C104-70']
+  solved by both: 144; at the root node: ours 117, Yamin et al. 60
+  first instance solved by ours after 8.2 s
+  solved within    20 s: ours  14, Yamin et al.  13, difference 1
+  solved within    60 s: ours  66, Yamin et al.  30, difference 36
+  solved within   600 s: ours 150, Yamin et al.  97, difference 53
+  solved within  3600 s: ours 193, Yamin et al. 135, difference 58
+  solved within  7200 s: ours 206, Yamin et al. 145, difference 61
+  ours reaches 145 solved instances after 447 s
+  difference between 600 s and 7200 s: min 48, max 64
+  Yamin et al.: no feasible solution for 113 instances, of which 85 without a lower bound (root node not completed); gap available for 22, of which ours solves 16
+  ours: no feasible solution for 0 instances; 11 without a lower bound; gap available for 63
+Section 6.5 (ablation study)
+  instances without a lower bound (root node not completed): Complete algorithm 11, No bidirectional labeling 18, No window inequalities 13, No pricing strategy 13, No arc fixing 12, No route enumeration 11, No primal framework 12
+  No window inequalities: 14 instances solved by only one of the two runs, 14 of them need more than 1000 s in the run that solves them
+  No pricing strategy: 17 instances solved by only one of the two runs, 16 of them need more than 1000 s in the run that solves them
+  No arc fixing: 10 instances solved by only one of the two runs, 10 of them need more than 1000 s in the run that solves them
+  root gap over the 232 instances with a completed cut round in both runs: with window inequalities 0.75%, without 0.79% (best known solution value over the seven runs)

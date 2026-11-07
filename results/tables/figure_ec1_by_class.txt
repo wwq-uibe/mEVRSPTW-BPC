@@ -1,0 +1,19 @@
+Number of instances solved to optimality (top panel of Figure EC.1)
+Run                              C1      C2      R1      R2     RC1     RC2
+Complete algorithm               41      25      55      21      30      34
+No bidirectional labeling        43      17      54      20      28      30
+No window inequalities           40      22      55      22      28      33
+No pricing strategy              40      24      55      19      29      34
+No arc fixing                    40      22      55      21      29      33
+No route enumeration             39      22      52      18      23      31
+No primal framework              41      24      54      17      29      33
+
+Average computing time (s) over the instances solved by all runs (bottom panel)
+Instances                        37      15      52      15      23      29
+Complete algorithm            145.0   816.9   141.3   288.6   181.8   522.8
+No bidirectional labeling     156.0  1612.6   180.4   759.4   196.7  1013.0
+No window inequalities        251.3   523.7   110.1   235.5   161.1   406.3
+No pricing strategy           118.4  1019.7   186.3   227.6   147.5   519.9
+No arc fixing                 144.9   708.6   160.3   238.3   232.0   482.5
+No route enumeration          333.9   935.8   159.8   536.9   594.0   739.6
+No primal framework           129.9  1032.2   193.1   277.4   222.3   601.7
