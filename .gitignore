@@ -1,0 +1,4 @@
+instances/
+*.aux
+*.log
+*.out
