@@ -2,7 +2,7 @@
 
 This repository contains the instances and the computational results of the paper
 
-> W. Wang. *Enhanced Exact Solution of the Electric Vehicle Routing and Overnight Charging Scheduling Problem.* Submitted to INFORMS Journal on Computing.
+> W. Wang. *Enhanced Exact Solution of the Electric Vehicle Routing and Overnight Charging Scheduling Problem.* To be submitted.
 
 The source code of the branch-price-and-cut algorithm will be added to this repository upon publication of the paper.
 
